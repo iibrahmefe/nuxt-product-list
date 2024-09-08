@@ -36,6 +36,8 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+  buildDir: 'dist', // Varsayılan olarak 'dist' olarak ayarlanmış olmalı
+  generate: {
+    dir: 'dist', // Uygulamanızın üretim çıkış dizini
+  },
 }
