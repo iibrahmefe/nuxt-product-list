@@ -16,7 +16,7 @@
         </div>
       </div>
     </div>
-   <p class="bottom">${{ totalPrice }} </p>
+   <p class="bottom">${{ totalPrice }} Total Price </p>
   </div>
 </template>
 
@@ -81,7 +81,7 @@ overflow: auto;
 
 .basket-item-desc{
     display: flex;
-    gap: 5px;
+    gap: 20px;
 }
 
 .basket-item-desc p{

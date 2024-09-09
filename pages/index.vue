@@ -21,13 +21,13 @@ export default {
       this.basket = newBasket; // Sepeti güncelle
     },
     removeFromBasket(item) {
-      this.basket = this.basket.filter(i => i !== item); // Sepetten ürünü çıkar
+      this.basket = this.basket.filter(i => i == item); // Sepetten ürünü çıkar
     }
   },
   mounted(){
     setTimeout(()=>{
       this.loading=false
-    },500)
+    },1500)
   }
 }
 </script>
